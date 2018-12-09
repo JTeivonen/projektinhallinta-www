@@ -14,13 +14,29 @@ h2 {
 }
 
 #textlinks {
-	text-decoration: none;
+	text-decoration: none; 
 	display: default;
 	text-align: center;
 	padding: 0px;
 	margin-top: 0px;
-	text-decoration: none;
-	list-style-type: none;
+	color:  #00FFFF;
+	font-size: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
 
 ul {
@@ -83,7 +99,7 @@ li a:hover {
 	color: #F00;
 	text-align: center;
 	padding-top: 80px;
-	padding-bottom: 200px;
+	padding-bottom: 20px;
 
 }
 
@@ -109,8 +125,9 @@ p {
 }
 
 #jako {
-	float: left;
-	margin-left: 500px;
+	margin-bottom: 50px;
 }
 
+#howtovid {
 	
+	}
