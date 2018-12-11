@@ -13,6 +13,32 @@ h2 {
 	text-decoration: underline overline;
 }
 
+#textlinks {
+	text-decoration: none; 
+	display: default;
+	text-align: center;
+	padding: 0px;
+	margin-top: 0px;
+	color:  #00FFFF;
+	font-size: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -23,19 +49,21 @@ ul {
 
 li {
 	float: left;
+	text-decoration: none;
 }
 
 li a {
 	display: block;
 	text-align: center;
-	color: blue;
+	color: red;
 	padding: 20px 16px 16px;
 	margin-top: 5px;
 	text-decoration: none;
 }
 
-lia:hover {
-	background-color: #111
+li a:hover {
+	background-color: #111;
+	color: white;
 }
 
 .active {
@@ -45,7 +73,7 @@ lia:hover {
 
 .wrapper {
 	background-color: #666;
-	heigth: auto;
+	height: auto;
 	color: gray;
 }
 
@@ -71,7 +99,8 @@ lia:hover {
 	color: #F00;
 	text-align: center;
 	padding-top: 80px;
-	padding-bottom: 200px;
+	padding-bottom: 20px;
+
 }
 
 p {
@@ -96,6 +125,9 @@ p {
 }
 
 #jako {
-	float: left;
-	margin-left: 500px;
+	margin-bottom: 50px;
 }
+
+#howtovid {
+	
+	}

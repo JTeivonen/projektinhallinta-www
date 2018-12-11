@@ -50,7 +50,7 @@ lia:hover {
 }
 
 #FinEng {
-	background-image: url(image/suominappi.png);
+	background-image: url(../image/suominappi1.png);
 	float: right;
 	height: 50px;
 	width: 50px;
@@ -81,13 +81,13 @@ p {
 .SkillBar {
 	background-color: #FFF;
 	height: 120px;
-	background-image: url(image/cafepic.jpg);
+	background-image: url(../image/cafepic.jpg);
 	background-position: left center;
 
 }
 
 #logo {
-	background-image: url(image/SkillBarLogo_Clean.png);
+	background-image: url(../image/SkillBarLogo_Clean.png);
 	height: 100px;
 	width: 300px;
 	float: left;

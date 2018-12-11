@@ -1,0 +1,25 @@
+<form>
+<h1>Ota yhteyttä</h1>
+<fieldset>
+  Nimi:<br>
+  <input type="text" name="firstname"><br>
+  Sukunimi:<br>
+  <input type="text" name="lastname"><br>
+  
+  Sähköposti:<br>
+  <input type="email" name="email"><br>
+
+  
+  <input type="radio" name="syy" value="varaus"> Kysymys<br>
+  <input type="radio" name="syy" value="palaute"> Palaute<br>
+ Viesti:<br>
+  <textarea name="message" maxlength="200" style="width:300px; height:100px;"> </textarea><br>
+  
+
+  
+  <button type="button" onclick="alert('Kiitos palautteesta')">Lähetä</button>
+  <button type="reset" onclick="_blank">Tyhjennä</button>
+ 
+  
+</fieldset>
+</form>
