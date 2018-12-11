@@ -1,0 +1,151 @@
+﻿@charset "utf-8";
+body {
+	background-color: #001
+}
+
+.PageContent {
+	background-color: #333;
+	padding-bottom: 20px;
+}
+
+h2 {
+	font-size: 30px;
+	text-decoration: underline overline;
+}
+
+#textlinks {
+	text-decoration: none; 
+	display: default;
+	text-align: center;
+	padding: 0px;
+	margin-top: 0px;
+	color:  #00FFFF;
+	font-size: 30px;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+	text-decoration: none;
+}
+
+li a {
+	display: block;
+	text-align: center;
+	color: red;
+	padding: 20px 16px 16px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #111;
+	color: white;
+}
+
+.active {
+	background-color: black;
+	color: white;
+}
+
+.wrapper {
+	background-color: #666;
+	height: auto;
+	color: gray;
+}
+
+#Some1 {
+	backround-image: url(../image/facebook_logo_dark.png);
+	float: right;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 20px;
+
+}
+
+#Some2 {
+	backround-image: url(../image/twitter_logo_dark.png);
+	float: right;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 20px;
+
+}
+
+#FinEng {
+	background-image: url(../image/suominappi1.png);
+	float: right;
+	height: 50px;
+	width: 50px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-right: 20px;
+	
+}
+
+.Navi {
+	font-size: 24px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#MainText {
+	background-color: #000;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F00;
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 20px;
+
+}
+
+p {
+	line-height: 1.8;
+}
+
+.SkillBar {
+	background-color: #FFF;
+	height: 120px;
+	background-image: url(../image/cafepic.jpg);
+	background-position: left center;
+
+}
+
+#logo {
+	background-image: url(../image/SkillBarLogo_Clean.png);
+	height: 100px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	
+}
+
+#jako {
+	margin-bottom: 50px;
+}
